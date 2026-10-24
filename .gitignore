@@ -1,0 +1,18 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+secrets/
+*.pem
+*.key
+
+# Java / Maven
+target/
+*.class
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
